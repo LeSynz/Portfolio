@@ -34,3 +34,30 @@
 
 }
 
+.h-144 {
+    height: 36rem;
+    width: 32rem;
+}
+
+.plc {
+    width: 40rem;
+    height: 30rem;  
+    color: linear-gradient(to left bottom, #9850e6, #8e43dd, #8336d4, #7928cc, #6e16c3);
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}   
+	100% {
+		opacity: 0.65;
+	}
+}
