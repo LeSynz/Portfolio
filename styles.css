@@ -46,7 +46,7 @@
 }
 
 .fade-in {
-	opacity: 1;
+	opacity: 0.65;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
@@ -60,4 +60,8 @@
 	100% {
 		opacity: 0.65;
 	}
+}
+
+.pics {
+    margin-left: 7.5rem;
 }
